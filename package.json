@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "author": "Leonard Werder",
-  "type": "commonjs",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
