@@ -38,5 +38,5 @@ describe('Clicking "Pusha till stacken"', () => {
 test('Kontrollera sidans rubrik', async () => {
     let header = await driver.findElement(By.tagName('h1')).getText();
     
-    expect(header).toBe("Pizza");
+    expect(header).toBe("Här kan vi leka med en stack");
 });

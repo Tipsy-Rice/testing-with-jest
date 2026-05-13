@@ -19,7 +19,7 @@ test('peek on stack with two or more elements returns the top element', () => {
 });
 
 test('pop ska tömma stacken på det sista elementet', () => {
-    stack.push("Banan");
+    stack.push("Äpple");
     let poppedElement = stack.pop();
     
     expect(poppedElement).toBe("Äpple"); 
