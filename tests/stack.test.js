@@ -17,3 +17,10 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+test('pop ska tömma stacken på det sista elementet', () => {
+    stack.push("Banan");
+    let poppedElement = stack.pop();
+    
+    expect(poppedElement).toBe("Äpple"); 
+});

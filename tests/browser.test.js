@@ -34,3 +34,9 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+test('Kontrollera sidans rubrik', async () => {
+    let header = await driver.findElement(By.tagName('h1')).getText();
+    
+    expect(header).toBe("Pizza");
+});
