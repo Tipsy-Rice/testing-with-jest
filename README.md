@@ -3,3 +3,5 @@ A Jest + npm lab session
 
 ## More information (in Swedish)
 See [this page]()
+
+## Coming more soon
